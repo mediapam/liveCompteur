@@ -4,7 +4,7 @@ Single key can refresh the wall every 45 seconds, while 9 keys are needed for a 
 of 5 seconds!
 */
 
-var APIKeys = ["AIzaSyD4xUfPIN5Qs7X12dWw2gGtW5Bfjy1LQwE"];
+var APIKeys = ["AIzaSyARweI4zcV1pQdYC3Y8kY-b8UDeL30qhE0"];
 
 var channelcount = 20;
 
