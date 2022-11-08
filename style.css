@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "bodyfont";
+  src: url("https://cdn.glitch.com/4a2ff7ee-5ae6-479f-b43d-3ec683f2e274%2FCaviarDreams.ttf?v=1569502953161");
+  
+}
+
+@font-face {
+ font-family: "headfont";
+  src: url("https://cdn.glitch.com/4a2ff7ee-5ae6-479f-b43d-3ec683f2e274%2FCaviarDreams_Bold.ttf?v=1569502953620");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+//body {
+	background-color: rgba(0,0,0,0);
+}
+
+.odometer {
+  font-size: 32px;
+  font-family : headfont;
+}
+
+.channelImage {
+  border-radius: 12%;
+  height: 65x;
+  width: 65px;
+  float: left;
+  margin-left: 0px;
+ 
+}
+
+//.channelName {
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: 'Lemon', sans-serif;
+  font-size: 16px;
+  margin-left: auto;
+
+}
+
+.card-content {
+
+  padding: 5px;
+}
+
+
+.card {
+  
+ display:inline-block;
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  font-size: 23px;
+  width: 300px;
+  border: 3px solid rgb(0, 0, 0);
+
+
+
+  height: 75px;
+  font-size: 13px;
+  width: 200px;
+  border: 2px solid rgb;
+  border-left-color:#0000ff;
+  border-right-color:#ff0000;
+  border-top-color:#33cc33;
+  border-bottom-color:#ffff00;
+  border-radius: 15px;
+  margin: 4px;
+  padding: 4px;
+  transition: background-color 1s;
+  //background-image: url("iima.gif"); 
+  //background-color: rgb(112, 112, 112);
+  transition: background-color 5s;
+}
+
+
+
+  @-webkit-keyframes argh-my-eyes {
+    from   { background-color: rgb(255, 255, 255); }
+    to { background-color: #FF6D88; }
+
+  }
+  @-moz-keyframes argh-my-eyes {
+    from   { background-color: rgb(255, 255, 0); }
+    to { background-color: #ff4d4d; }
+  
+  }
+  @keyframes argh-my-eyes {
+    from   { background-color: rgb(255, 255, 0); }
+    to { background-color: #00ff00; }
+
+  }
+  .activee {
+  -webkit-animation: argh-my-eyes 2s infinite;
+  -moz-animation:    argh-my-eyes 2s infinite;
+  animation:         argh-my-eyes 2s infinite;
+  }
+  
+ @keyframes background {
+  0% {
+	background-color: purple;
+  }
+  25% {
+	background-color: blue;
+  }
+  50% {
+	background-color: green;
+  }
+  75% {
+	background-color: yellow;
+  } 
+  100% {
+	background-color: red;
+  }
+}
+
+.channelName {
+      position: relative;
+      font-family: Impact, sans-serif;
+      font-size: 15px;
+      letter-spacing: 2px;
+      background: linear-gradient(90deg, #90EE90,#DC143C, #fff, #000, #90EE90,#DC143C, #fff, #000);
+      background-repeat: no-repeat;
+      background-size: 80%;
+      animation: animate 7s infinite;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: rgba(255, 255, 255, 0);
+      }
+      @keyframes animate {
+      0% {
+      background-position: -500%;
+      }
+      100% {
+      background-position: 500%;
+      }
+      }
+	  
+	  
+	  @keyframes defile {
+  from {
+    margin-left: 92%;
+    width: 300%; 
+  }
+  to {
+    margin-left: 35%;
+    width: 100%;
+  }
+}
+.odometer {
+  animation: defile 3s infinite alternate;
+  font-size: 25px;
+  color: #e4087e;
+  font-weight: bold;
+  margin-top:-40px;
+}
+
+
+
+
+
+.background {
+  color: hsl(324, 70%, 45%);
+  animation: wheelHueColor 10s infinite;
+  background-color: currentColor;
+}
+@supports (background-blend-mode: overlay) {
+  .background {
+    background-image: linear-gradient(45deg, white 10%, black 90%);
+    background-blend-mode: overlay;
+  }
+}
+@keyframes wheelHueColor {
+  from, to { color: hsl(324, 70%, 45%); }
+  10%      { color: hsl(360, 65%, 45%); }
+  20%      { color: hsl( 36, 80%, 45%); }
+  30%      { color: hsl( 72, 75%, 35%); }
+  40%      { color: hsl(108, 65%, 35%); }
+  50%      { color: hsl(144, 75%, 35%); }
+  60%      { color: hsl(180, 75%, 35%); }
+  70%      { color: hsl(216, 60%, 45%); }
+  80%      { color: hsl(252, 65%, 50%); }
+  85%      { color: hsl(288, 60%, 40%); }
+}
