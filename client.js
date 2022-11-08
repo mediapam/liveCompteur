@@ -21,7 +21,7 @@ iterationcard++;
 		var subscriberCount = [];
 
 		
-		$.getJSON('https://compteur4100.000webhostapp.com/log/channels.json', function(channels){
+		$.getJSON('https://mediapam.github.io/liveCompteur/log/channels.json', function(channels){
         
 		channelList = channels.reverse();
 		
